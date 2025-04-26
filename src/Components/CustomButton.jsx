@@ -34,7 +34,18 @@ import React from "react";
 //   );
 // }
 
-function CustomButton({ img, text, bgColor, textColor, padding, border }) {
+function CustomButton({
+  img,
+  text,
+  bgColor,
+  textColor,
+  padding,
+  border,
+  fontWeight,
+  hover,
+  cursor,
+  margin,
+}) {
   return (
     <button
       className="flex gap-2 items-center rounded "
@@ -43,6 +54,10 @@ function CustomButton({ img, text, bgColor, textColor, padding, border }) {
         color: textColor,
         padding: padding,
         border: border,
+        fontWeight: fontWeight,
+        hover: hover,
+        cursor: cursor,
+        margin: margin,
       }}
     >
       {img}

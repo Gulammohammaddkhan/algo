@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="text-white bg-[#00182e] flex justify-evenly pt-7 pb-7">
+    <div className="text-white bg-[#00182e] flex justify-evenly items-center pt-7 pb-7">
       <div className="flex justify-center gap-10 pl-17 ">
         <Link
           to="/Products"
@@ -30,7 +30,7 @@ const Header = () => {
           Purchase
         </Link>
       </div>
-      <button className=" p-2  hover:border-[#626ee3] hover:border rounded-sm">
+      <button className=" p-2 hover:border-[#626ee3] hover:border-2 rounded-sm cursor-pointer">
         Log In
       </button>
     </div>
