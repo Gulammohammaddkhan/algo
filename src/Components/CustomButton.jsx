@@ -45,6 +45,7 @@ function CustomButton({
   hover,
   cursor,
   margin,
+  style,
 }) {
   return (
     <button
@@ -58,6 +59,7 @@ function CustomButton({
         hover: hover,
         cursor: cursor,
         margin: margin,
+        style: style,
       }}
     >
       {img}

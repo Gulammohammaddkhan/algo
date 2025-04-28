@@ -5,7 +5,6 @@ import About from "../Components/About";
 import Table from "../Components/Table";
 import Partners from "../Components/Partners";
 import Reviews from "../Components/Reviews";
-import CustomButton from "../Components/CustomButton";
 import Questions from "../Components/Questions";
 import VideoCard from "../Components/VideoCard";
 import DataStructures from "../Components/DataStructures";
@@ -14,22 +13,27 @@ import Practice from "../Components/Practice";
 import Notation from "../Components/Notation";
 import BeforeFooter from "../Components/BeforeFooter";
 import Footer from "../Components/Footer";
+import ContentWrapper from "../Components/ContentWrapper";
 
 const Home = () => {
   return (
     <>
       <Header />
       <Hero />
-      <About />
-      <Table />
-      <Partners />
-      <Reviews />
+      <ContentWrapper>
+        <About />
+        <Table />
+        <Partners />
+        <Reviews />
+      </ContentWrapper>
       <Questions />
-      <VideoCard />
-      <DataStructures />
-      <Languages />
-      <Practice />
-      <Notation />
+      <ContentWrapper>
+        <VideoCard />
+        <DataStructures />
+        <Languages />
+        <Practice />
+        <Notation />
+      </ContentWrapper>
       <BeforeFooter />
       <Footer />
     </>
