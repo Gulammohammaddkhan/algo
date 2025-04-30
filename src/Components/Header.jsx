@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { TbBackground } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = (bgColor) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
@@ -39,7 +40,10 @@ const Header = () => {
 
       {/* Yeh Div Click ke baad dikhega */}
       {showInfo && (
-        <Link to="/Products" className="transition-all duration-300 absolute top-20 z-40 left-72 bg-white text-black p-4 rounded shadow-lg">
+        <Link
+          to="/Products"
+          className="transition-all duration-300 absolute top-20 z-40 left-72 bg-white text-black p-4 rounded shadow-lg"
+        >
           <h3 className="text-lg font-bold">FrontendExpert</h3>
           <p className="text-sm">Ace the frontend interviews</p>
 

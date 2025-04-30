@@ -18,8 +18,8 @@ import ContentWrapper from "../Components/ContentWrapper";
 const Home = () => {
   return (
     <>
-      <Header />
-      <Hero />
+      {/* <Hero /> */}
+      {/* <Header /> */}
       <ContentWrapper>
         <About />
         <Table />

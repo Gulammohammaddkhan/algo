@@ -1,5 +1,6 @@
 import React from "react";
 import CustomButton from "./CustomButton";
+import Header from "./Header";
 
 // function Hero() {
 //   return (
@@ -89,7 +90,6 @@ function Hero() {
           />
         </div>
       </div>
-
       {/* Image */}
       <div className="relative w-full md:w-[50%] flex justify-center md:justify-end">
         <img
