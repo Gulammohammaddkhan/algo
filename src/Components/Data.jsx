@@ -7,21 +7,21 @@ import { FaReact } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { BsPcDisplay } from "react-icons/bs";
 import { PiCertificateLight } from "react-icons/pi";
-import img1 from "../assets/Images/Img1.jpg";
-import img2 from "../assets/Images/Img2.jpg";
-import img3 from "../assets/Images/Img3.jpg";
-import img4 from "../assets/Images/Img4.jpg";
-import img5 from "../assets/Images/Img5.jpg";
-import img6 from "../assets/Images/Img6.jpg";
-import img7 from "../assets/Images/Img7.jpg";
-import img8 from "../assets/Images/Img8.jpg";
-import img9 from "../assets/Images/Img9.jpg";
-import img10 from "../assets/Images/Img10.jpg";
-import img11 from "../assets/Images/Img11.jpg";
-import img12 from "../assets/Images/Img12.jpg";
-import img13 from "../assets/Images/Img13.jpg";
-import img14 from "../assets/Images/Img14.jpg";
-import img15 from "../assets/Images/Img15.svg";
+import imgone from "../assets/Images/imgone.jpg";
+import imgtwo from "../assets/Images/imgtwo.jpg";
+import imgthree from "../assets/Images/imgthree.jpg";
+import imgfour from "../assets/Images/imgfour.jpg";
+import imgfive from "../assets/Images/imgfive.jpg";
+import imgsix from "../assets/Images/imgsix.jpg";
+import imgseven from "../assets/Images/imgseven.jpg";
+import imgeight from "../assets/Images/imgeight.jpg";
+import imgnine from "../assets/Images/imgnine.jpg";
+import imgten from "../assets/Images/imgten.jpg";
+import imgeleven from "../assets/Images/imgeleven.jpg";
+import imgtwelve from "../assets/Images/imgtwelve.jpg";
+import imgthirteen from "../assets/Images/imgthirteen.jpg";
+import imgfourteen from "../assets/Images/imgfourteen.jpg";
+import imgfifteen from "../assets/Images/imgfifteen.svg";
 import google from "../assets/Images/Google.png";
 import amazon from "../assets/Images/Amazon.png";
 import microsoft from "../assets/Images/Microsoft.png";
@@ -129,7 +129,7 @@ export const aboutData = [
 export const reviewData = [
   {
     key: 1,
-    avatar: img1,
+    avatar: imgone,
     name: "Alex",
     title: "Software Engineer",
     company: google,
@@ -137,7 +137,7 @@ export const reviewData = [
   },
   {
     key: 2,
-    avatar: img2,
+    avatar: imgtwo,
     name: "Corbin",
     title: "Software Engineer",
     company: amazon,
@@ -145,7 +145,7 @@ export const reviewData = [
   },
   {
     key: 3,
-    avatar: img3,
+    avatar: imgthree,
     name: "Carlos",
     title: "Software Developer Intern",
     company: microsoft,
@@ -153,7 +153,7 @@ export const reviewData = [
   },
   {
     key: 4,
-    avatar: img4,
+    avatar: imgfour,
     name: "Marlies",
     title: "Software Engineer",
     company: palantir,
@@ -161,7 +161,7 @@ export const reviewData = [
   },
   {
     key: 5,
-    avatar: img5,
+    avatar: imgfive,
     name: "Adarsh",
     title: "Software Engineer",
     company: oracle,
@@ -169,7 +169,7 @@ export const reviewData = [
   },
   {
     key: 6,
-    avatar: img6,
+    avatar: imgsix,
     name: "Elana",
     title: " Senior Software Engineer",
     company: bloomberg,
@@ -177,7 +177,7 @@ export const reviewData = [
   },
   {
     key: 7,
-    avatar: img7,
+    avatar: imgseven,
     name: "Alberto",
     title: "Software Engineer",
     company: capitalone,
@@ -185,7 +185,7 @@ export const reviewData = [
   },
   {
     key: 8,
-    avatar: img8,
+    avatar: imgeight,
     name: "Onyeka",
     title: "Web Developer",
     company: harvard,
@@ -193,7 +193,7 @@ export const reviewData = [
   },
   {
     key: 9,
-    avatar: img9,
+    avatar: imgnine,
     name: "Ayoub",
     title: "Software Engineer Intern",
     company: zillow,
@@ -201,7 +201,7 @@ export const reviewData = [
   },
   {
     key: 10,
-    avatar: img10,
+    avatar: imgten,
     name: "Sreepriya",
     title: "Software Engineer",
     company: microsoft,
@@ -209,7 +209,7 @@ export const reviewData = [
   },
   {
     key: 11,
-    avatar: img11,
+    avatar: imgeleven,
     name: "Erik",
     title: "Software Engineer",
     company: blackrock,
@@ -217,7 +217,7 @@ export const reviewData = [
   },
   {
     key: 12,
-    avatar: img12,
+    avatar: imgtwelve,
     name: "Eren",
     title: "Data Engineer",
     company: simon,
@@ -225,7 +225,7 @@ export const reviewData = [
   },
   {
     key: 13,
-    avatar: img13,
+    avatar: imgthirteen,
     name: "Mitch",
     title: "Software Engineer",
     company: ethereum,
@@ -233,7 +233,7 @@ export const reviewData = [
   },
   {
     key: 14,
-    avatar: img14,
+    avatar: imgfourteen,
     name: "Jeremy",
     title: "Analyst",
     company: blackrock,
@@ -241,7 +241,7 @@ export const reviewData = [
   },
   {
     key: 15,
-    avatar: img15,
+    avatar: imgfifteen,
     name: "You",
     title: "Dream Job",
     disc: "Got an AlgoExpert success story to share?Tell us  where you work, what your position is, how helpful AlgoExpert was in getting it, and give us a link to your LinkedIn profile!",

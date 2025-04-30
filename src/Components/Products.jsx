@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import BeforeFooter from "./BeforeFooter";
 import { productData } from "./Data";
 import FrontendQuestions from "./FrontendQuestions";
+
 function Products() {
   return (
     <div>

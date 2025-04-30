@@ -1,6 +1,4 @@
 import React from "react";
-import google from "../assets/Images/Google.png";
-import CustomButton from "./CustomButton";
 
 function ReviewCard({ data }) {
   return (
@@ -19,8 +17,7 @@ function ReviewCard({ data }) {
           </p>
         </div>
       </div>
-      {/* ***************************************************** */}
-    </div>
+       </div>
   );
 }
 

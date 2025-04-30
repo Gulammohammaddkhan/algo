@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Products from "./Components/Products";
 import Hero from "./Components/Hero";
 import Header from "./Components/Header";
+import CodingQuestions from "./Components/CodingQuestions";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Routes>
           <Route path="/Products" element={<Products />} />
+          <Route path="/interview-preparation" element={<CodingQuestions />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>

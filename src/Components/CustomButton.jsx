@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // function CustomButton({
 //   img,
@@ -46,24 +47,28 @@ function CustomButton({
   cursor,
   margin,
   style,
+  path,
 }) {
   return (
-    <button
-      className="flex gap-2 items-center rounded "
-      style={{
-        backgroundColor: bgColor,
-        color: textColor,
-        padding: padding,
-        border: border,
-        fontWeight: fontWeight,
-        hover: hover,
-        cursor: cursor,
-        margin: margin,
-        style: style,
-      }}
-    >
-      {img}
-      {text}
+    <button>
+      <Link
+        to={path}
+        className="flex gap-2 items-center rounded "
+        style={{
+          backgroundColor: bgColor,
+          color: textColor,
+          padding: padding,
+          border: border,
+          fontWeight: fontWeight,
+          hover: hover,
+          cursor: cursor,
+          margin: margin,
+          style: style,
+        }}
+      >
+        {img}
+        {text}
+      </Link>
     </button>
   );
 }
