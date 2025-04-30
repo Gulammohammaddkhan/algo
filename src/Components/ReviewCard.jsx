@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../assets/Images/img1.jpg";
 import google from "../assets/Images/Google.png";
 import CustomButton from "./CustomButton";
 
