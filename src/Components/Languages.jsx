@@ -9,10 +9,10 @@ import { GiBrain } from "react-icons/gi";
 import { IoLogoWindows } from "react-icons/io5";
 import { BsEmojiSunglasses } from "react-icons/bs";
 import rat from "../assets/Images/Rat.png";
-import cPlus from "../assets/Images/C++.png";
 import python from "../assets/Images/Python.png";
 import jspic from "../assets/Images/jsPic.png";
 import CustomButton from "./CustomButton";
+import cPlus from "../assets/Images/C++.png";
 
 function Languages() {
   return (
