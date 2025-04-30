@@ -8,12 +8,12 @@ import Reviews from "../Components/Reviews";
 import Questions from "../Components/Questions";
 import VideoCard from "../Components/VideoCard";
 import DataStructures from "../Components/DataStructures";
-import Languages from "../Components/Languages";
 import Practice from "../Components/Practice";
 import Notation from "../Components/Notation";
 import BeforeFooter from "../Components/BeforeFooter";
 import Footer from "../Components/Footer";
 import ContentWrapper from "../Components/ContentWrapper";
+import Languages from "../Components/Languages";
 
 const Home = () => {
   return (
