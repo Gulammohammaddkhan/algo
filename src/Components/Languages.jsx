@@ -12,7 +12,7 @@ import rat from "../assets/Images/Rat.png";
 import python from "../assets/Images/Python.png";
 import jspic from "../assets/Images/jsPic.png";
 import CustomButton from "./CustomButton";
-import cPlus from "../assets/Images/C++.png";
+import cPlus from "../assets/Images/Cplus.png";
 
 function Languages() {
   return (
